@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+int a,b,c;
+printf("enter three values");
+scanf("%d %d %d",&a,&b,&c);
+if (a>b)
+printf("valid succesfully:");
+else
+printf("invalid:");
+if (a>c)
+printf("valid succesfully:");
+else
+printf("invalid:");
+if (b<c)
+    printf("valid succesfully:");
+    else
+    printf("invalid:");
+    return 0;
+}
