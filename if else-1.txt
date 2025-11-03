@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+    int bal=200;
+    if(bal>300)
+    printf("transaction succesfull ");
+  else
+  printf("insufficient balance");
+    return 0;
+}
