@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+   int num;
+   printf("enter a number");
+   scanf("%d",&num);
+   if (num<100) {
+    printf("two digit number\n",num);
+}
+    return 0;
+}
